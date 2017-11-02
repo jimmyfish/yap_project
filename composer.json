@@ -1,0 +1,16 @@
+{
+    "name": "jimmy/yap_project",
+    "require": {
+        "slim/slim-skeleton": "^3.1",
+        "swiftmailer/swiftmailer": "^6.0",
+        "twig/twig": "^2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jimmy Fish",
+            "email": "killcoder212@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
