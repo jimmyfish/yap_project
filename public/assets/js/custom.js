@@ -114,6 +114,7 @@ function silder() {
       Accordion
 *************************/
 function accordion() {
+    console.log('Init accordion');
     var $acpanel = $(".iq-accordion .ad-block > .ad-details"),
         $acsnav = $(".iq-accordion .ad-block > .ad-title");
 

@@ -64,21 +64,10 @@ $app->register(new \Silex\Provider\HttpFragmentServiceProvider());
  */
 $app->register(new \Silex\Provider\ValidatorServiceProvider());
 
-//$app->register(new \SilexAssetic\AsseticServiceProvider(), array(
-//    'assets.version' => 'v1',
-//    'assets.version_format' => '%s?version=%s',
-//    'assets.named_packages' => array(
-//        'css' => array('version' => 'css2', 'base_path' => '/whatever-makes-sense'),
-//        'images' => array('base_urls' => array('https://img.example.com')),
-//    ),
-//));
-
-
-
-/**
- * Register Web Profiler Service Provider
- */
-if ($app['debug']) {
-    Symfony\Component\Debug\Debug::enable(E_ALL, true);
-    $app->register(new \Silex\Provider\WebProfilerServiceProvider(), $config['profiler']);
-}
+///**
+// * Register Web Profiler Service Provider
+// */
+//if ($app['debug']) {
+//    Symfony\Component\Debug\Debug::enable(E_ALL, true);
+//    $app->register(new \Silex\Provider\WebProfilerServiceProvider(), $config['profiler']);
+//}

@@ -1,0 +1,75 @@
+{% extends 'layouts/layout.html.twig' %}
+
+{% block content %}
+    <!-- Frequently Asked Questions -->
+
+    <section class="overview-block-ptb white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h2 class="title iq-tw-6">Frequently Asked Questions</h2>
+                        <div class="divider"></div>
+                        <p>If you got any query? Here you go! Don't hesitate to ask any Question! We are happy to help with
+                            your questions. Here you go! Don't hesitate to ask any Question! We are happy to help with your
+                            questions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-responsive center-block" src="{{ app.request.basepath }}/assets/images/01.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="iq-accordion iq-mt-50">
+                        <div class="ad-block ad-active"><a href="" class="ad-title iq-tw-6 iq-font-grey"> <span
+                                        class="ad-icon"><i class="ion-ios-infinite-outline" aria-hidden="true"></i></span>Ipsum
+                                is simply dummy the printing?</a>
+
+                            <div class="ad-details">
+                                <div class="row">
+                                    <div class="col-sm-3"><img alt="#" class="img-responsive" src="{{ app.request.basepath }}/assets/images/faq-1.jpg"></div>
+                                    <div class="col-sm-9"> It has survived not only five centuries, but also the leap into
+                                        electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                        amet, consectetur, adipisci velit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ad-block"><a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i
+                                            class="ion-ios-time-outline" aria-hidden="true"></i></span>Dummy the printing
+                                and type setting?</a>
+                            <div class="ad-details">It has survived not only five centuries, but also the leap into
+                                electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                consectetur, adipisci velit.
+                            </div>
+                        </div>
+                        <div class="ad-block"><a href="{{ '#' }}" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i
+                                            class="ion-ios-compose-outline" aria-hidden="true"></i></span>Standard dummy
+                                since the 1500s?</a>
+                            <div class="ad-details">
+                                <div class="row">
+                                    <div class="col-sm-9"> It has survived not only five centuries, but also the leap into
+                                        electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                        amet, consectetur, adipisci velit.
+                                    </div>
+                                    <div class="col-sm-3"><img alt="#" class="img-responsive" src="{{ app.request.basepath }}/assets/images/faq-1.jpg"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ad-block"><a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i
+                                            class="ion-ios-loop" aria-hidden="true"></i></span>It has survived five
+                                centuries?</a>
+                            <div class="ad-details">It has survived not only five centuries, but also the leap into
+                                electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                consectetur, adipisci velit.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
