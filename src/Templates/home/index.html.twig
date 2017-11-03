@@ -1,0 +1,606 @@
+{% extends 'layouts/layout.html.twig' %}
+
+{% block content %}
+<!-- Banner -->
+
+<section id="iq-home" class="banner iq-bg iq-bg-fixed iq-box-shadow iq-over-black-90" style=" background: url({{ app.request.basepath }}/assets/img/bg-2.png);">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        {#<ol class="carousel-indicators">#}
+            {#<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>#}
+            {#<li data-target="#carousel-example-generic" data-slide-to="1"></li>#}
+            {#<li data-target="#carousel-example-generic" data-slide-to="2"></li>#}
+        {#</ol>#}
+        <!-- Wrapper for slides -->
+        <div class="container">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner-text">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-6 col-md-6">
+                                <h1 class="iq-font-white iq-tw-8" data-animation="animated fadeInLeft">
+                                    SOLUSI TRANSAKSI MASA KINI
+                                </h1>
+                                <div class="link">
+                                    <h5 class="iq-font-white" data-animation="animated fadeInLeft">Tersedia di</h5>
+                                    <ul class="list-inline" data-animation="animated fadeInUp">
+                                        <li>
+                                            <a href="#">
+                                                <img src="{{ app.request.basepath }}/assets/img/Playstore_Badge.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li><a href="#"><img src="{{ app.request.basepath }}/assets/img/Appstore_Badge.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-1 col-lg-1 col-md-1 hidden-xs">&nbsp;</div>
+                            <div class="col-sm-5 col-lg-5 col-md-5 hidden-xs">
+                                <div class="img-one pull-right">
+                                    <img class="img-responsive" data-animation="animated fadeInRight" src="{{ app.request.basepath }}/assets/img/illustration-1.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner End -->
+
+<div class="main-content">
+
+    <!-- Feature -->
+
+    <section id="about-us" class="overview-block-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h2 class="title iq-tw-6">Kartu kredit + Debit + UnikQu = YAP!</h2>
+                        <div class="divider"></div>
+                        <p>Aplikasi YAP! merupakan salah satu produk Aplikasi dari BNI untuk kebutuhan metode pembayaran yang memungkinkan Nasabah menjadi inisiator atas transaksi di merchant hanya dengan mengambil gambar (capture) Qr-code pada merchant. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="iq-fancy-box text-left">
+                        <img src="{{ app.request.basepath }}/assets/img/illustration-2.png" alt="#">
+                        <h4 class="iq-tw-6">Mudah dalam penggunaannya</h4>
+                        <p>Dengan menggunakan platform android dan iOS membuat semakin mudah dalam mengoperasikannya</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 re-mt-30">
+                    <div class="iq-fancy-box text-left">
+                        <img src="{{ app.request.basepath }}/assets/img/illustration-3.png" alt="#">
+                        <h4 class="iq-tw-6">Terkoneksi dengan Rekening Anda</h4>
+                        <p>Setiap nasabah akan melakukan verifikasi setiap rekening banknya yang akan menjadi akun dalam Aplikasi YAP!</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 re-mt-30">
+                    <div class="iq-fancy-box text-left">
+                        <img src="{{ app.request.basepath }}/assets/img/illustration-4.png" alt="#">
+                        <h4 class="iq-tw-6">Aplikasi Gratis</h4>
+                        <p>Setiap nasabah BCA gratis untuk mengunduh dan menggunakan aplikasi pembayaran YAP!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature END -->
+
+
+    <!-- About Our App -->
+
+    <section class="iq-about grey-bg iq-mtb-40">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-sm-12 col-lg-5 col-md-5 iq-about-bg">
+                    <div class="iq-bg about-img popup-gallery play-video">
+                        <img class="img-responsive center-block" src="{{ app.request.basepath }}/assets/images/about-us.jpg" alt="#">
+                        <a href="{{ app.request.basepath }}/assets/video/01.mp4" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
+                        <div class="iq-waves">
+                            <div class="waves wave-1"></div>
+                            <div class="waves wave-2"></div>
+                            <div class="waves wave-3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 col-md-7 iq-pall-50">
+                    <h2 class="heading-left iq-tw-6 ">Tentang Aplikasi YAP!</h2>
+                    <p>Aplikasi PAY SAJA merupakan suatu solusi metode pembayaran yang memungkinkan Nasabah menjadi inisiator atas transaksi di merchant. Metode pembayaran ini memerlukan media berupa aplikasi mobile yang dimiliki oleh nasabah dan merchant. Metode pembayaran yang digunakan saat transaksi adalah dengan menggunakan QR Code scanner. Aplikasi PAY SAJA telah disediakan dalam Android dan iOS dan setiap device harus terkoneksi dengan jaringan internet</p>
+                    <a class="button iq-mt-15" href="# ">Download Manual Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Our App END -->
+
+
+    <!-- Special Features -->
+
+    <section id="features" class="overview-block-ptb iq-amazing-tab white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h2 class="title iq-tw-6">Beragam Kelebihan</h2>
+                        <div class="divider"></div>
+                        <p>Berkat relasi yang terjalin baik selama bertahun-tahun dengan mitra pembayaran nasional maupun internasional, YAP! dapat menyajikan metode pembayaran terlengkap bahkan menfasilitasi transaksi dengan mata uang asing tertentu yang siap mendukung para merchant memperluas pasar serta meningkatkan pendapatan bisnisnya.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active wow fadeInLeft" data-wow-duration="1s">
+                            <a class="round-right" href="#design" aria-controls="design" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01 text-right">
+                                    <i aria-hidden="true" class="ion-ios-checkmark-outline"></i>
+                                    <h4 class="iq-tw-6">Widely Acceptance</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Dapat digunakan oleh seluruh nasabah BNI tanpa terkecuali</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li role="presentation" class="wow fadeInLeft" data-wow-duration="1s" >
+                            <a class="round-right" href="#resolution" aria-controls="resolution" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01 text-right">
+                                    <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
+                                    <h4 class="iq-tw-6">Easy</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Cara pakai yang mudah, hanya dengan Login, Scan dan Bayar</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li role="presentation" class="wow fadeInLeft" data-wow-duration="1s">
+                            <a class="round-right" href="#ready" aria-controls="ready" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01 text-right">
+                                    <i aria-hidden="true" class="ion-ios-copy-outline"></i>
+                                    <h4 class="iq-tw-6">Modern Lifestyle</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Lifestyle masa kini yang ditandai dengan gadget minded</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center hidden-sm hidden-xs">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="design"><img src="{{ app.request.basepath }}/assets/img/screen/screen-4.png" class="img-responsive center-block" alt="#"></div>
+                        <div role="tabpanel" class="tab-pane" id="resolution"><img src="{{ app.request.basepath }}/assets/img/screen/screen-1.png" class="img-responsive center-block" alt="#"></div>
+                        <div role="tabpanel" class="tab-pane" id="ready"><img src="{{ app.request.basepath }}/assets/img/screen-1.png" class="img-responsive center-block" alt="#"></div>
+                        <div role="tabpanel" class="tab-pane" id="fertures"><img src="{{ app.request.basepath }}/assets/img/screen/screen-2.png" class="img-responsive center-block" alt="#"></div>
+                        <div role="tabpanel" class="tab-pane" id="face"><img src="{{ app.request.basepath }}/assets/img/screen-1.png" class="img-responsive center-block" alt="#"></div>
+                        <div role="tabpanel" class="tab-pane" id="codes"><img src="{{ app.request.basepath }}/assets/img/screen-1.png" class="img-responsive center-block" alt="#"></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                            <a href="#fertures" aria-controls="fertures" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01">
+                                    <i aria-hidden="true" class="ion-ios-photos-outline"></i>
+                                    <h4 class="iq-tw-6">Secure</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Dua lapis pengamanan : Password login dan pin transaksi</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                            <a href="#face" aria-controls="face" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01">
+                                    <i aria-hidden="true" class="ion-ios-heart-outline"></i>
+                                    <h4 class="iq-tw-6">Ultimate</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Terdapat tiga sumber Dana yaitu dari Kartu Debit, Kartu Kredit dan UniQu</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li role="presentation" class="wow fadeInRight" data-wow-duration="1s">
+                            <a href="#codes" aria-controls="codes" role="tab" data-toggle="tab">
+                                <div class="iq-fancy-box-01">
+                                    <i aria-hidden="true" class="ion-ios-plus-outline"></i>
+                                    <h4 class="iq-tw-6">Low Cost</h4>
+                                    <div class="fancy-content-01">
+                                        <p>Mengurangi biaya operasional pada merchant</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Features END -->
+
+
+    <!-- App Screenshots -->
+
+    <section id="screenshots" class="iq-app iq-bg iq-bg-fixed iq-font-white" style="background: url({{ app.request.basepath }}/assets/img/bg-2.png);" >
+        <div class="container-fluid">
+            <div class="row row-eq-height">
+                <div class="col-md-6 text-left iq-ptb-80 green-bg">
+                    <div class="iq-app-info">
+                        <h2 class="heading-left iq-font-white white iq-tw-6 ">Mudah dan Praktis</h2>
+                        <p class="">YAP! memiliki tools terintegrasi ke e-commerce yang Anda butuhkan sebagai alat pembayaran secara online, dengan transaksi debit, kartu kredit, bahkan penarikan uang.</p>
+                        <p>Teknologi kami menggabungkan rekening pedagang dan solusi pembayaran dengan integrasi paling inovatif dan langkah-langkah keamanan data sekitar. Tujuan YAP! bertransaksi adalah untuk membantu perusahaan dengan menyediakan solusi tunggal-sumber pembayaran online dan kayanan akun penjual. Pilihan paket kami dapat disesuaikan bagi bisnis untuk mencakup pemenuhan akun penjual, proses pembayaran gateway.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 iq-app-screen iq-ptb-80">
+                    <div class="home-screen-slide">
+                        <div class="owl-carousel popup-gallery" data-nav-dots="true" data-nav-arrow="false" data-items="3" data-sm-items="3" data-lg-items="3" data-md-items="2" data-autoplay="false">
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-1.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-1.png" alt="#"></a></div>
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-2.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-2.png" alt="#"></a></div>
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-3.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-3.png" alt="#"></a></div>
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-4.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-4.png" alt="#"></a></div>
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-5.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-5.png" alt="#"></a></div>
+                            <div class="item"><a href="{{ app.request.basepath }}/assets/img/screen/screen-6.png" class="popup-img"><img class="img-responsive" src="{{ app.request.basepath }}/assets/img/screen/screen-6.png" alt="#"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots END -->
+
+
+    <!-- Appino Great Feature -->
+
+    <section class="overview-block-ptb white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h2 class="title iq-tw-6">Easy pay for easy life</h2>
+                        <div class="divider"></div>
+                        <p>Memberikan kemudahan dalam menjalani hidup di era digital, tak perlu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-1 col-md-1 iq-mr-50">&nbsp;</div>
+                <div class="col-sm-6 col-lg-3 col-md-3">
+                    <div class="iq-fancy-box-02 text-center">
+                        <div class="iq-icon">
+                            <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
+                        </div>
+                        <div class="fancy-content">
+                            <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Easy Activation</h5>
+                            <p>Aktivasi antara aplikasi dengan rekening nasabah BNI yang sangat mudah</p>
+                            <span class="iq-big-title">01</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-3 re7-mt-50">
+                    <div class="iq-fancy-box-02 text-center">
+                        <div class="iq-icon">
+                            <i aria-hidden="true" class="ion-ios-settings"></i>
+                        </div>
+                        <div class="fancy-content">
+                            <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Easy Login</h5>
+                            <p>hanya dengan menggunakan nomor rekening dan Kode Unik untuk masuk ke dalam Aplikasi</p>
+                            <span class="iq-big-title">02</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-md-3 re-mt-30">
+                    <div class="iq-fancy-box-02 text-center">
+                        <div class="iq-icon">
+                            <i aria-hidden="true" class="ion-social-googleplus-outline"></i>
+                        </div>
+                        <div class="fancy-content">
+                            <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Easy Pay</h5>
+                            <p>Dengan menggunakan scan QR Code membuat transaksi semakin mudah</p>
+                            <span class="iq-big-title">03</span>
+                        </div>
+                    </div>
+                </div>
+                {#<div class="col-sm-6 col-lg-3 col-md-3 re-mt-30">#}
+                    {#<div class="iq-fancy-box-02 text-center">#}
+                        {#<div class="iq-icon">#}
+                            {#<i aria-hidden="true" class="ion-ios-heart-outline"></i>#}
+                        {#</div>#}
+                        {#<div class="fancy-content">#}
+                            {#<h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Clean Codes</h5>#}
+                            {#<p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>#}
+                            {#<span class="iq-big-title">04</span>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Appino Great Feature END -->
+
+
+    <!-- Amazing Feature -->
+
+    {#<section class="overview-block-ptb grey-bg iq-loved-customers">#}
+        {#<div class="container">#}
+            {#<div class="row">#}
+                {#<div class="col-sm-12">#}
+                    {#<div class="heading-title">#}
+                        {#<h2 class="title iq-tw-6">Loved By Our Customers</h2>#}
+                        {#<div class="divider"></div>#}
+                        {#<p>Our Customer are our priority. we believe in providing best services to them. </p>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<div class="row">#}
+                {#<div class="col-sm-12">#}
+                    {#<div class="owl-carousel" data-nav-dots="false" data-nav-arrow="true" data-items="3" data-xs-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-autoplay="true">#}
+                        {#<div class="item">#}
+                            {#<div class="iq-client white-bg">#}
+                                {#<div class="client-img">#}
+                                    {#<img alt="#" class="img-responsive img-circle" src="{{ app.request.basepath }}/assets/images/testimonial/01.jpg">#}
+                                {#</div>#}
+                                {#<div class="client-info">#}
+                                    {#<div class="client-name iq-mb-10">#}
+                                        {#<h5 class="iq-tw-6">Jason Adams</h5>#}
+                                        {#<span class="sub-title iq-tw-6">CEO, Appino</span>#}
+                                    {#</div>#}
+                                    {#<p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore.</p>#}
+                                {#</div>#}
+                            {#</div>#}
+                        {#</div>#}
+                        {#<div class="item">#}
+                            {#<div class="iq-client white-bg">#}
+                                {#<div class="client-img">#}
+                                    {#<img alt="#" class="img-responsive img-circle" src="{{ app.request.basepath }}/assets/images/testimonial/02.jpg">#}
+                                {#</div>#}
+                                {#<div class="client-info">#}
+                                    {#<div class="client-name iq-mb-10">#}
+                                        {#<h5 class="iq-tw-6">Amy Adams</h5>#}
+                                        {#<span class="sub-title iq-tw-6">CEO, Appino</span>#}
+                                    {#</div>#}
+                                    {#<p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore.</p>#}
+                                {#</div>#}
+                            {#</div>#}
+                        {#</div>#}
+                        {#<div class="item">#}
+                            {#<div class="iq-client white-bg">#}
+                                {#<div class="client-img">#}
+                                    {#<img alt="#" class="img-responsive img-circle" src="{{ app.request.basepath }}/assets/images/testimonial/03.jpg">#}
+                                {#</div>#}
+                                {#<div class="client-info">#}
+                                    {#<div class="client-name iq-mb-10">#}
+                                        {#<h5 class="iq-tw-6">John Deo</h5>#}
+                                        {#<span class="sub-title iq-tw-6">CEO, Appino</span>#}
+                                    {#</div>#}
+                                    {#<p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore.</p>#}
+                                {#</div>#}
+                            {#</div>#}
+                        {#</div>#}
+
+
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+        {#</div>#}
+    {#</section>#}
+
+    {#<!-- Amazing Feature END -->#}
+
+
+    {#<!-- Meet the Team -->#}
+
+    {#<section id="team" class="overview-block-ptb white-bg">#}
+        {#<div class="container">#}
+            {#<div class="row">#}
+                {#<div class="col-sm-12">#}
+                    {#<div class="heading-title">#}
+                        {#<h2 class="title iq-tw-6">Meet the Team</h2>#}
+                        {#<div class="divider"></div>#}
+                        {#<p>Meet the faces behind our company. Our team offers the most up-to-date, sustainable custom solutions to the problem. They work so hard to provide best to their customers.</p>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<div class="row">#}
+                {#<div class="col-sm-6 col-lg-3 col-md-3">#}
+                    {#<div class="iq-team">#}
+                        {#<img src="{{ app.request.basepath }}/assets/images/team/01.jpg" class="img-responsive center-block" alt="#">#}
+                        {#<div class="iq-team-info text-center">#}
+                            {#<h4 class="iq-font-white iq-tw-5">Jason Adams</h4>#}
+                            {#<span class="team-post iq-tw-5">UI/UX Designer</span>#}
+                            {#<div class="share iq-mt-15">#}
+                                {#<span> <i class="fa fa-share-alt iq-mr-10" aria-hidden="true"></i> Share With</span>#}
+                                {#<nav>#}
+                                    {#<a href="#"><i class="fa fa-twitter"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-facebook"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-google"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-github"></i></a>#}
+                                {#</nav>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-sm-6 col-lg-3 col-md-3">#}
+                    {#<div class="iq-team re7-mt-50">#}
+                        {#<img src="{{ app.request.basepath }}/assets/images/team/02.jpg" class="img-responsive center-block" alt="#">#}
+                        {#<div class="iq-team-info text-center">#}
+                            {#<h4 class="iq-font-white iq-tw-5">Amy Adams</h4>#}
+                            {#<span class="team-post iq-tw-5">UI/UX Designer</span>#}
+                            {#<div class="share iq-mt-15">#}
+                                {#<span> <i class="fa fa-share-alt iq-mr-10" aria-hidden="true"></i> Share With</span>#}
+                                {#<nav>#}
+                                    {#<a href="#"><i class="fa fa-twitter"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-facebook"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-google"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-github"></i></a>#}
+                                {#</nav>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-sm-6 col-lg-3 col-md-3 re-mt-30">#}
+                    {#<div class="iq-team">#}
+                        {#<img src="{{ app.request.basepath }}/assets/images/team/03.jpg" class="img-responsive center-block" alt="#">#}
+                        {#<div class="iq-team-info text-center">#}
+                            {#<h4 class="iq-font-white iq-tw-5">John Deo</h4>#}
+                            {#<span class="team-post iq-tw-5">UI/UX Designer</span>#}
+                            {#<div class="share iq-mt-15">#}
+                                {#<span> <i class="fa fa-share-alt iq-mr-10" aria-hidden="true"></i> Share With</span>#}
+                                {#<nav>#}
+                                    {#<a href="#"><i class="fa fa-twitter"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-facebook"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-google"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-github"></i></a>#}
+                                {#</nav>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-sm-6 col-lg-3 col-md-3 re-mt-30">#}
+                    {#<div class="iq-team">#}
+                        {#<img src="{{ app.request.basepath }}/assets/images/team/04.jpg" class="img-responsive center-block" alt="#">#}
+                        {#<div class="iq-team-info text-center">#}
+                            {#<h4 class="iq-font-white iq-tw-5">James Clayton</h4>#}
+                            {#<span class="team-post iq-tw-5">UI/UX Designer</span>#}
+                            {#<div class="share iq-mt-15">#}
+                                {#<span> <i class="fa fa-share-alt iq-mr-10" aria-hidden="true"></i> Share With</span>#}
+                                {#<nav>#}
+                                    {#<a href="#"><i class="fa fa-twitter"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-facebook"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-google"></i></a>#}
+                                    {#<a href="#"><i class="fa fa-github"></i></a>#}
+                                {#</nav>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+        {#</div>#}
+    {#</section>#}
+
+    {#<!-- Meet the Team END -->#}
+
+
+    {#<!-- Counter -->#}
+
+    {#<div class="iq-ptb-70 iq-counter-box iq-bg iq-bg-fixed iq-over-black-80" style="background: url({{ app.request.basepath }}/assets/images/about/04.jpg);">#}
+        {#<div class="container">#}
+            {#<div class="row">#}
+                {#<div class="col-lg-3 col-sm-3 col-xs-6 text-center">#}
+                    {#<div class="counter"> <i class="ion-ios-folder-outline iq-font-white" aria-hidden="true"></i> <span class="timer iq-tw-6 iq-font-black" data-to="1540" data-speed="10000">1540</span>#}
+                        {#<label class="iq-font-white">Project</label>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-lg-3 col-sm-3 col-xs-6 text-center">#}
+                    {#<div class="counter"> <i class="ion-ios-paper-outline iq-font-white" aria-hidden="true"></i> <span class="timer iq-tw-6 iq-font-black" data-to="2530" data-speed="10000">2530</span>#}
+                        {#<label class="iq-font-white">AWARDS</label>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-lg-3 col-sm-3 col-xs-6 text-center re7-mt-50">#}
+                    {#<div class="counter"> <i class="ion-ios-person-outline iq-font-white" aria-hidden="true"></i> <span class="timer iq-tw-6 iq-font-black" data-to="8120" data-speed="10000">8120</span>#}
+                        {#<label class="iq-font-white">HAPPY CLIENTS</label>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<div class="col-lg-3 col-sm-3 col-xs-6 text-center re7-mt-50">#}
+                    {#<div class="counter"> <i class="ion-ios-star iq-font-white" aria-hidden="true"></i> <span class="timer iq-tw-6 iq-font-black" data-to="1620" data-speed="10000">1620</span>#}
+                        {#<label class="iq-font-white">TOTAL APP RATES</label>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+        {#</div>#}
+    {#</div>#}
+
+    {#<!-- Counter END -->#}
+
+
+    {#<!-- Frequently Asked Questions -->#}
+
+    {#<section class="overview-block-ptb white-bg">#}
+        {#<div class="container">#}
+            {#<div class="row">#}
+                {#<div class="col-sm-12">#}
+                    {#<div class="heading-title">#}
+                        {#<h2 class="title iq-tw-6">Frequently Asked Questions</h2>#}
+                        {#<div class="divider"></div>#}
+                        {#<p>If you got any query? Here you go! Don't hesitate to ask any Question! We are happy to help with your questions. Here you go! Don't hesitate to ask any Question! We are happy to help with your questions.</p>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<div class="row">#}
+                {#<div class="col-sm-12 col-md-6">#}
+                    {#<img class="img-responsive center-block" src="{{ app.request.basepath }}/assets/images/01.png" alt="">#}
+                {#</div>#}
+                {#<div class="col-sm-12 col-md-6">#}
+                    {#<div class="iq-accordion iq-mt-50">#}
+                        {#<div class="ad-block ad-active"> <a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i class="ion-ios-infinite-outline" aria-hidden="true"></i></span>Ipsum is simply dummy the printing?</a>#}
+
+                            {#<div class="ad-details">#}
+                                {#<div class="row">#}
+                                    {#<div class="col-sm-3"><img alt="#" class="img-responsive" src="{{ app.request.basepath }}/assets/images/faq-1.jpg"></div>#}
+                                    {#<div class="col-sm-9"> It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</div>#}
+                                {#</div>#}
+                            {#</div>#}
+                        {#</div>#}
+
+                        {#<div class="ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i class="ion-ios-time-outline" aria-hidden="true"></i></span>Dummy the printing and type setting?</a>#}
+                            {#<div class="ad-details">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</div>#}
+                        {#</div>#}
+                        {#<div class="ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i class="ion-ios-compose-outline" aria-hidden="true"></i></span>Standard dummy since the 1500s?</a>#}
+                            {#<div class="ad-details">#}
+                                {#<div class="row">#}
+                                    {#<div class="col-sm-9"> It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</div>#}
+                                    {#<div class="col-sm-3"><img alt="#" class="img-responsive" src="{{ app.request.basepath }}/assets/images/faq-1.jpg"></div>#}
+
+                                {#</div>#}
+                            {#</div>#}
+                        {#</div>#}
+                        {#<div class="ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey"> <span class="ad-icon"><i class="ion-ios-loop" aria-hidden="true"></i></span>It has survived five centuries?</a>#}
+                            {#<div class="ad-details">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+        {#</div>#}
+    {#</section>#}
+
+    <!-- Frequently Asked Questions END -->
+
+
+    <!-- Frequently Asked Questions -->
+
+    <section class="overview-block-ptb iq-bg iq-bg-fixed iq-over-black-80" style="background: url({{ app.request.basepath }}/assets/img/bg-3.png);" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title iq-mb-40">
+                        <h2 class="title iq-tw-6 iq-font-white">Download YAP!</h2>
+                        <div class="divider white"></div>
+                        <p class="iq-font-white">Aplikasi YAP! telah tersedia dalam platform Android dan iOS dan setiap device harus terkoneksi dengan jaringan internet baik melalui data seluler maupun Wifi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a class="iq-mr-15" href="# "><img src="{{ app.request.basepath }}/assets/img/Playstore_Badge.png" alt="Playstore"></a>
+                    <a class="iq-mr-15 re4-mt-20" href="# "><img src="{{ app.request.basepath }}/assets/img/Appstore_Badge.png" alt="Appstore"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+{% endblock %}

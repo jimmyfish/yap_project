@@ -14,6 +14,8 @@ $config = require __DIR__ . '/../app/config.php';
 
 $app = new \Silex\Application($config['common']);
 
+$app['asset_path'] = '../web';
+
 require 'bootstrap.php';
 
 $app->mount('/', new \Jimmy\Yap\Http\Controller\ClientController($app));

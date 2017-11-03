@@ -12,6 +12,8 @@ namespace Jimmy\Yap\Http\Controller;
 use Silex\Application;
 use Silex\ControllerCollection;
 use Silex\ControllerProviderInterface;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class ClientController implements ControllerProviderInterface
 {
@@ -24,14 +26,29 @@ class ClientController implements ControllerProviderInterface
     }
 
     /**
-     * Returns routes to connect to the given application.
-     *
-     * @param Application $app An Application instance
-     *
-     * @return ControllerCollection A ControllerCollection instance
+     * @param Application $app
+     * @return mixed
      */
     public function connect(Application $app)
     {
-        // TODO: Implement connect() method.
+        $controllers = $app['controllers_factory'];
+
+        $controllers->get('/', [$this, 'homeAction'])
+            ->bind('home');
+
+        $controllers->post('/', [$this, 'homePostAction'])
+            ->bind('home_post');
+
+        return $controllers;
+    }
+
+    public function homeAction(Request $request)
+    {
+        return $this->app['twig']->render('home/index.html.twig');
+    }
+
+    public function homePostAction(Request $request)
+    {
+        return new Response();
     }
 }
